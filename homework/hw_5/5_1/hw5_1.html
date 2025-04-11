@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>hw 5.1</title>
+	<style>
+		body{
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.circle{
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-top: 5px solid yellow;
+			border-right: 5px solid black;
+			border-bottom: 5px solid yellow;
+			border-left: 5px solid black;
+			animation: spin 2s linear alternate infinite;
+		}
+		.div-circle{
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			border-radius: 50%;
+			border-top: 30px solid darkred;
+			border-right: 30px solid yellow;
+			border-bottom: 30px solid darkred;
+			border-left: 30px solid yellow;
+		}
+		@keyframes spin{
+			from{
+				transform: rotate(0deg) scale(0);
+			}
+			to{
+				transform: rotate(360deg) scale(1.2);
+			}
+        }
+
+	</style>
+</head>
+<body>
+	<div class="circle">
+		<div class="div-circle"></div>
+	</div>
+</body>
+</html>
