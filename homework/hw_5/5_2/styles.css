@@ -1,0 +1,188 @@
+/*-------------- common styles --------------*/
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1E1E1E;
+}
+body{
+    font-family: 'Inter', 'Bowlby One', sans-serif;
+    width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+ul, ol{
+    list-style-type: none;
+}
+button{
+    cursor: pointer;
+}
+/*-------------- header --------------*/
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 59px;
+    padding-top: 36px;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 59px;
+    color: #E9E3DC;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+}
+.btn-order{
+    width: 203px;
+    height: 60px;
+    color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    background: #B3A0CD;
+}
+.header-title{
+    width: 1255px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 107px;
+    font-weight: 400;
+    line-height: 88.896%; /* 95.198px */
+    letter-spacing: -2.142px;
+    text-transform: uppercase;
+    margin-top: 74px;
+}
+.header-img{
+    width: 700px;
+    height: 396px;
+    margin: 32px auto;
+}
+/*-------------- hero --------------*/
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.main-top{
+    width: 1340px;
+    height: 369px;
+    border-radius: 30px;
+    border: 4px solid #1E1E1E;
+    background: #D1EF53;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.main-top-title{
+    width: 533px;
+    color: #1E1E1E;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88.896%; /* 62.228px */
+    letter-spacing: -1.4px;
+    text-transform: uppercase;
+    background-color: inherit;
+}
+.main-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 34px;
+    background-color: #D1EF53;
+}
+.main-about p{
+    width: 521px;
+    height: 75px;
+    color: #1E1E1E;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.896%; /* 33.575px */
+    letter-spacing: -0.48px;
+    background-color: inherit;
+}
+.btn-about{
+    width: 176px;
+    height: 60px;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    border: 4px solid #1E1E1E;
+    background: #E9E3DC;
+    box-shadow: 8px 8px 0 0 #000;
+}
+.main-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+/*-------------- footer --------------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 64px;
+}
+.footer-title{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    margin-top: 64px;
+    margin-bottom: 33px;
+}
+.btn-footer{
+    width: 196px;
+    height: 60px;
+    background-color: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One", sans serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
