@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header, .footer{
+    width: 100vw;
+    height: 22vh;
+    background: #D9D9D9;
+}
+.main{
+    width: 100vw;
+    height: 56vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aside{
+    width: 27%;
+    height: 100%;
+    background: #C0BDBD;
+}
+.main section{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-container{
+    width: 100%;
+    height: 100%;
+    background: #827878;
+}
+.section-article{
+    width: 100%;
+    height: 100%;
+    background: #B7ADAD;
+}
