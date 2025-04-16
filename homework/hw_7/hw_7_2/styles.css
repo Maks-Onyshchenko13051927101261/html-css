@@ -25,6 +25,7 @@ button{
 }
 /* -------- header -------- */
 .header{
+    width: 92%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +35,9 @@ button{
     font-size: 20px;
     font-weight: 700;
     border-bottom: 2px solid #14102a;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .nav-list{
     display: flex;
@@ -49,6 +53,7 @@ button{
     align-items: center;
     background-color: #24204A;
     padding: 0 115px;
+    margin-top: 110px;
 }
 .top-title{
     display: flex;
@@ -70,7 +75,7 @@ button{
     letter-spacing: 1px;
     border: none;
 }
-.top-title h2{
+.top-title h1{
     width: 261px;
     font-size: 36px;
     font-weight: 700;

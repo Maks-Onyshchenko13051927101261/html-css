@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "desktop.css";
+@import "tablet.css";
+@import "mobile.css";
+/* ---------- common styles ---------- */
+*{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 32px 0;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}

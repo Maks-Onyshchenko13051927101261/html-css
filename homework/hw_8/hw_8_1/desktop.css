@@ -1,0 +1,25 @@
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    body{
+        width: 1180px;
+    }
+    body>div{
+        width: 372px;
+        margin-top: 32px;
+    }
+    div>h3{
+        width: 100%;
+        margin: 20px 0 15px 0;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 120%; /* 24px */
+    }
+    div>p{
+        width: 100%;
+        color: #3C3C43;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 120%; /* 15.6px */
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+}
